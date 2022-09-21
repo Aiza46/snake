@@ -7,13 +7,14 @@ using System.Threading.Tasks;
 namespace snake
 {
     internal class point
-    {   public int x;
-        public int y;
+    {   public int X;
+        public int Y;
         public char sym;
         public void Draw()
-        { Console.SetCursorPosition(x, y);
-   Console.Write(sym);}
-}
+        {Console.SetCursorPosition(X, Y);
+   Console.Write(sym);
+        }
+    }
 }
     
 
